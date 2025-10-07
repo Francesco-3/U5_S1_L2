@@ -24,6 +24,7 @@ public class Menu {
 
         System.out.printf("%-60s %10s %15s\n", "Drinks", "Calories", "Price");
         drinks.forEach(Drink::print);
+        System.out.println();
     }
 
     public static class Pizza extends Item {
